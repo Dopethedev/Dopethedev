@@ -7,6 +7,10 @@ approach as the header on the jarvis repository, with a different motif.
 
     python3 render-banner.py
     rsvg-convert -w 1600 banner.svg -o /tmp/banner.png    # to look at it
+
+When the artwork changes, bump the ?v= in README.md too. Both the browser and
+GitHub cache an image by its URL, so the same filename serves the old picture and
+the page looks like nothing happened.
 """
 import sys
 from pathlib import Path
