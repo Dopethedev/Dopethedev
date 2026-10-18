@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="itsdope: learning AI and ML, building in public" width="820">
+  <img src="banner.svg?v=2" alt="itsdope: learning AI and ML, building in public" width="820">
 </p>
 
 **I am learning AI and ML, and building in public while I do it.** From Nepal. I
