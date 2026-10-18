@@ -84,9 +84,8 @@ def main() -> int:
 
     outliner = Outliner(font_path)
     wordmark, _ = outliner.text("itsdope", 118, 56, 172, tracking=-4)
-    tagline, _ = outliner.text("python on arch, mostly things that run locally",
-                               24, 60, 222)
-    caption, _ = outliner.text("github.com/Dopethedev", 17, 60, 262)
+    tagline, _ = outliner.text("learning ai and ml, building in public", 24, 60, 222)
+    caption, _ = outliner.text("from nepal   github.com/Dopethedev", 17, 60, 262)
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
   <title>itsdope</title>

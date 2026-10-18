@@ -1,16 +1,32 @@
 <p align="center">
-  <img src="banner.svg" alt="itsdope: python on arch, mostly things that run locally" width="820">
+  <img src="banner.svg" alt="itsdope: learning AI and ML, building in public" width="820">
 </p>
 
-**I build things that run on my own machine.** Mostly Python, on Arch with
-Hyprland. If it can work without an account, without a subscription, and without
-sending my data somewhere, that is the one I want to build.
+**I am learning AI and ML, and building in public while I do it.** From Nepal. I
+write passion projects, learning projects, and the occasional thing that solves a
+real problem. Early stage, and saying so plainly is more useful than dressing it
+up. Not tied to one language either: Python most days, and whatever the problem
+wants otherwise.
 
-## What I am working on
+## What I am learning
 
-**[jarvis](https://github.com/Dopethedev/jarvis)** is a voice assistant that
-hears and speaks locally, thinks through whichever model I point it at, and puts
-a dashboard on screen that changes mood by voice.
+The stage matters, so here it is:
+
+- **Machine learning fundamentals**, and how models actually behave outside a
+  notebook.
+- **Local inference**, which is where most of my learning happens: whisper for
+  speech to text, kokoro for speech out, silero for voice activity, onnxruntime
+  underneath all of it.
+- **Making a model useful in a program** rather than in a demo. That turned out to
+  be mostly failure handling, deadlines and measuring, not prompts.
+- **The parts of a language that are not the language:** packaging, locking,
+  cross-platform behaviour, and tests that can actually fail.
+
+## What I have built
+
+**[jarvis](https://github.com/Dopethedev/jarvis)** is a voice assistant that hears
+and speaks locally, thinks through whichever model I point it at, and puts a
+dashboard on screen that changes mood by voice.
 
 The parts worth knowing about:
 
@@ -28,7 +44,7 @@ The parts worth knowing about:
 
 ## How I build
 
-These are cheap to say and expensive to keep, which is the point:
+Rules I set early because they are cheap to say and expensive to keep:
 
 - **A test that cannot fail does not count.** Take the fix out, watch the test
   fail, put it back.
@@ -37,6 +53,12 @@ These are cheap to say and expensive to keep, which is the point:
 - **Say what was not verified** rather than rounding up to "done".
 - **Nothing personal in a tracked file.** Settings live in a file that is ignored.
 
+## What is coming
+
+More of both kinds: projects I start because I want to learn something, and
+projects that fix a real annoyance. Different languages, different problems. Stay
+tuned.
+
 ## Where to look
 
 - [jarvis](https://github.com/Dopethedev/jarvis), the assistant
@@ -44,4 +66,3 @@ These are cheap to say and expensive to keep, which is the point:
   including the limits and what it deliberately does not do
 - [CONTRIBUTING.md](https://github.com/Dopethedev/jarvis/blob/main/CONTRIBUTING.md),
   the rules the project actually follows
-
