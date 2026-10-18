@@ -44,3 +44,4 @@ These are cheap to say and expensive to keep, which is the point:
   including the limits and what it deliberately does not do
 - [CONTRIBUTING.md](https://github.com/Dopethedev/jarvis/blob/main/CONTRIBUTING.md),
   the rules the project actually follows
+
