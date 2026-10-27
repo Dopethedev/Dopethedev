@@ -3,7 +3,7 @@
 
 A readme cannot carry a font, so the words are baked into vector outlines here
 and the file that ships has no font-family in it at all. This is the same
-approach as the header on the jarvis repository, with a different motif.
+approach as the header on the archy repository, with a different motif.
 
     python3 render-banner.py
     rsvg-convert -w 1600 banner.svg -o /tmp/banner.png    # to look at it

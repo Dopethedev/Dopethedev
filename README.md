@@ -24,7 +24,7 @@ The stage matters, so here it is:
 
 ## What I have built
 
-**[jarvis](https://github.com/Dopethedev/jarvis)** is a voice assistant that hears
+**[archy](https://github.com/Dopethedev/archy)** is a voice assistant that hears
 and speaks locally, thinks through whichever model I point it at, and puts a
 dashboard on screen that changes mood by voice.
 
@@ -61,8 +61,8 @@ tuned.
 
 ## Where to look
 
-- [jarvis](https://github.com/Dopethedev/jarvis), the assistant
-- [FEATURES.md](https://github.com/Dopethedev/jarvis/blob/main/FEATURES.md),
+- [archy](https://github.com/Dopethedev/archy), the assistant
+- [FEATURES.md](https://github.com/Dopethedev/archy/blob/main/FEATURES.md),
   including the limits and what it deliberately does not do
-- [CONTRIBUTING.md](https://github.com/Dopethedev/jarvis/blob/main/CONTRIBUTING.md),
+- [CONTRIBUTING.md](https://github.com/Dopethedev/archy/blob/main/CONTRIBUTING.md),
   the rules the project actually follows
